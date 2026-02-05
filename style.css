@@ -1,0 +1,39 @@
+/* 全体のレイアウト */
+body {
+  text-align: center;
+}
+
+/* 数字のデザイン */
+#count {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+/* ボタンのデザイン */
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* 各ボタンの色分け */
+#btn-minus {
+  background-color: blue;
+}
+
+#btn-plus {
+  background-color: palevioletred;
+}
+
+#btn-reset {
+  background-color: #ccc; /* グレー */
+}
+
+/* エラーメッセージ */
+#error-message {
+  color: red;
+  font-size: 1rem;
+}
